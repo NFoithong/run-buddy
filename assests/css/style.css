@@ -107,12 +107,15 @@ section {
 /* hero style end */
 
 
-/* context section */
+/* what we do section */
+
+/* remove this entire css rule for .intro h2 and .step h2 because we had the same css style in both section*/
 
 .intro {
     text-align: center;
 }
 
+/* 
 .intro h2 {
     font-size: 55px;
     color: #024e76;
@@ -120,17 +123,74 @@ section {
     padding: 0 100px 20px 100px;
     border-bottom: 3px solid;
     border-color: #fce138;
-    /* add this alonside your other declararions */
     display: inline-block;
 }
+*/
 
 .intro p {
     line-height: 1.7;
     color: #39a6b2;
     width: 80%;
     font-size:20px;
-    /* add this alonside your other declararions */
     margin: 0 auto;
+}
+
+/* what you do section */
+
+.step {
+    text-align: center;
+    background: #fce138;
+}
+
+/*
+.step h2 {
+    font-size: 55px;
+    color: #024e76;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    border-bottom: 3px solid;
+    border-color: #39a6b2;
+} */
+
+.section-title {
+    font-size: 55px;
+    color: #024e76;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    border-bottom: 3px solid;
+    display: inline-block;
+}
+
+.primary-border {
+    border-color: #fce138;
+}
+
+.secondary-border {
+    border-color: #39a6b2;
+}
+
+.step div {
+    margin-bottom: 80px;
+}
+
+.step img {
+    width: 15%;
+    margin: 10px 0;
+}
+
+.step h3 {
+    color: #024e76;
+    font-size:46px;
+    margin-top:10px;
+}
+
+.step p {
+    color: #39a6b2;
+    font-size: 23px;
+}
+
+.step span {
+    font-size: 38px;
 }
 
 /* Footer Section */

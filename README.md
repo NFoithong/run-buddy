@@ -1,4 +1,4 @@
-# Run Buddy
+# Run Buddy INC,
 
 ## Purpose
 A website that offers fitness training services.
@@ -12,4 +12,4 @@ https://nfoithong.github.io/run-buddy/
 
 ## Contribution
 Made with ❤️ by Natthaphon Foithong
-&copy 2021
+### ©️2019 Run Buddy, Inc 

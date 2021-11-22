@@ -11,4 +11,4 @@ A website that offers fitness training services.
 https://nfoithong.github.io/run-buddy/
 
 ## Contribution
-Made with ❤️ by [Natthaphon Foithong]
+Made with ❤️ by Natthaphon Foithong

@@ -12,4 +12,5 @@ https://nfoithong.github.io/run-buddy/
 
 ## Contribution
 Made with ❤️ by Natthaphon Foithong
+
 ### ©️2019 Run Buddy, Inc 

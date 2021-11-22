@@ -1,4 +1,4 @@
-# Run Buddy INC,
+# Run Buddy INC, 2021
 
 ## Purpose
 A website that offers fitness training services.

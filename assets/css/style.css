@@ -187,7 +187,7 @@ section {
     padding-bottom: 50px;
     width: 80%;
     border-bottom: 1px solid #39a6b2;
-    disply: flex;
+    display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;

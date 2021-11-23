@@ -150,10 +150,13 @@ section {
 
 /* remove this entire css rule for .intro h2 and .step h2 because we had the same css style in both section*/
 
+/* removed because we use flexbox 
+
 .intro {
     text-align: center;
 }
 
+*/
 /* 
 .intro h2 {
     font-size: 55px;
@@ -172,12 +175,22 @@ section {
     width: 80%;
     font-size:20px;
     margin: 0 auto;
+    text-align: center;
 }
+
 
 /* what you do section */
 
 .step {
-    text-align: center;
+    /* removed text-align: center; */
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    border-bottom: 1px solid #39a6b2;
+    disply: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
     background: #fce138;
 }
 
@@ -191,13 +204,21 @@ section {
     border-color: #39a6b2;
 } */
 
+
 .section-title {
     font-size: 55px;
     color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
     border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width:50%;
+    /* removed
     display: inline-block;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px; 
+    */
+
 }
 
 .primary-border {
@@ -208,6 +229,8 @@ section {
     border-color: #39a6b2;
 }
 
+/* removed
+
 .step div {
     margin-bottom: 80px;
 }
@@ -217,26 +240,60 @@ section {
     margin: 10px 0;
 }
 
-.step h3 {
-    color: #024e76;
-    font-size:46px;
-    margin-top:10px;
-}
-
-.step p {
-    color: #39a6b2;
-    font-size: 23px;
-}
-
 .step span {
     font-size: 38px;
 }
 
+*/
+
+.step h3 {
+    color: #024e76;
+    font-size:46px;
+    flex: 1 30%;
+    /* removed margin-top:10px; */
+}
+
+.step-text {
+    flex: 12;
+}
+
+.step-text p {
+    color: #39a6b2;
+    font-size: 18px;
+}
+
+.step-text h4 {
+    font-size: 26px;
+    line-height: 1.5;
+    color: #024e76;
+}
+
+.step-info {
+    flex: 2 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.step-img {
+    flex: 1 12%;
+    margin-right: 20px;
+}
+
+.step-img img {
+    max-width: 100%;
+}
+
 /* Meet the trainers article */
+
+/* removed 
 
 .trainers {
     text-align: center;
 }
+
+ */
+
 .trainer {
     width: 900px;
     margin: 0 auto 30px auto;
@@ -283,7 +340,7 @@ section {
 /* Reach out section */
 
 .contact {
-    text-align: center;
+    /* removed text-align: center; */
     background: #024e76;
 }
 
@@ -348,4 +405,8 @@ footer div {
 
 footer a {
     color: #024e76;
+}
+
+.flex-row {
+    display: flex;
 }
